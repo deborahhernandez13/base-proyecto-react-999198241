@@ -73,6 +73,18 @@ export default function Chat() {
               <option value="">Claro</option>
               <option value="">Oscuro</option>
             </select><br></br>
+            <h3>Cambiar Sonido:</h3>
+            <select name="" id="">
+              <option value="">Activado</option>
+              <option value="">Silencioso</option>
+              <option value="">Personalizado</option>
+            </select><br></br>
+            <h3>Tamaño de Fuente:</h3>
+            <select name="" id="">
+              <option value="">Pequeño</option>
+              <option value="">Mediano</option>
+              <option value="">Grande</option>
+            </select><br></br>
             <button onClick={handleClosePopup}>Cerrar</button>
           </div>
         </section>
